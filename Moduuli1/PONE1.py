@@ -1,1 +1,1 @@
-print("Terve, Veikko!")
+print("Terve, Veikko Jokinen!")
