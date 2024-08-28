@@ -13,3 +13,6 @@ for i in range(pisteidenmäärä):
 piilikiarvo = 4 * pisteitäympyrässä / pisteidenmäärä
 
 print("Piin likiarvo on:", piilikiarvo)
+
+## Koodista en ole täysin varma, jos sattumoisin vastaus on väärin. Voisiko tehtävän antoa selventää-
+## -tai mahdollisesti osoittaa mikä osa koodista on väärin
