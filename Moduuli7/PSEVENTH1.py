@@ -1,4 +1,4 @@
-vuodenaikatable = [[2, "Talvi"], [5, "Kevät"], [8, "Kesä"], [11, "Syksy"], [12, "Talvi"]]
+vuodenaikatable = ((2, "Talvi"), (5, "Kevät"), (8, "Kesä"), (11, "Syksy"), (12, "Talvi"))
 
 kuukausi = int(input("Anna kuukausi luku: "))
 
