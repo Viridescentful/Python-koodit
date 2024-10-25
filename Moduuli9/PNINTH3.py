@@ -16,7 +16,7 @@ class Auto:
             self.nopeus += nopeudenmuutos
 
     def kulje(self, aika):
-        self.matka = float(self.nopeus) * aika
+        self.matka += float(self.nopeus) * aika
 
 
 uusiauto = Auto("ABC-123", 142)
@@ -25,7 +25,7 @@ for kiihdytys in kiihdytysluvut:
     uusiauto.kiihdytä(kiihdytys)
     print(uusiauto.nopeus)
 
-uusiauto.kulje(float(input("Anna kuljettava aika (Tunteina): ")))
+uusiauto.kulje(1.5)
 
 for x in vars(uusiauto):
     print(x + ":", vars(uusiauto)[x])
