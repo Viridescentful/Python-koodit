@@ -13,5 +13,6 @@ pyyntö2 = f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}
 vastaus2 = requests.get(pyyntö2).json()
 
 celsius = round(vastaus2["main"]["temp"] - 273.15, 0)
+säätila = vastaus2["weather"][0]["main"]
 
-print(f"Paikkakunnan {paikkakunta} lämpötila on {celsius}°C")
+print(f"Paikkakunnan {paikkakunta} lämpötila on {celsius}°C ja Säätila on {säätila}")
