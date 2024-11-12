@@ -7,7 +7,7 @@ yhteys = mysql.connector.connect(
         port=3306,
         database="flight_game",
         user="Veikko",
-        password="SQLTemp",
+        password="",
         autocommit=True
     )
 app = Flask(__name__)
