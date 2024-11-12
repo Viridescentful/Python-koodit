@@ -2,7 +2,6 @@ from flask import Flask, request
 import mysql.connector
 import json
 
-from Moduuli12.PTWELFTH1 import vastaus
 yhteys = mysql.connector.connect(
         host="127.0.0.1",
         port=3306,
