@@ -1,3 +1,4 @@
+
 numero = input("Anna numero: ")
 alkuluku = True
 
